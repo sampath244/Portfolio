@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 style="margin: 0px 10px;">Sampath</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <div class="profile-image">
+                <img src="https://banner2.cleanpng.com/20180525/qof/kisspng-computer-icons-professional-avatar-5b082e7d41e733.32066901152726284527.jpg" alt="Profile Picture">
+            </div>
+            <h2 style="text-align: center;">About Me</h2>
+            <p>Hello! I am a front-end developer with a passion for creating beautiful and functional websites.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Expence tracker</h3>
+                <p>A personalised expense tracker using react js </p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Net banking</h3>
+                <p>Developed a net banking application using c++ </p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Bootstrap</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+               
+                <ul>
+                    <li>Email: <a href="mailto:example@example.com" style="color: blue;">sampath_tripurani@srmap.edu.in</a></li>
+                    <li>LinkedIn: <a href="https://www.linkedin.com/in/sampath-tripurani/" target="_blank" style="color: blue;">LinkedIn Profile</a></li>
+                    <li>GitHub: <a href="https://github.com/sampath244" target="_blank" style="color: blue;">GitHub Profile</a></li>
+                </ul>
+            </div>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Portfolio</p>
+        </div>
+    </footer>
+
+    <script src="sam.js"></script>
+</body>
+</html>
